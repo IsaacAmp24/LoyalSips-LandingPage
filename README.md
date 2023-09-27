@@ -1,1 +1,1 @@
-# LoyalSips-LandingPage
+# LandingPage-LoyalSips.
