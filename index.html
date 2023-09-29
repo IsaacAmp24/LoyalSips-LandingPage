@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>complete responsive flower website design tutorial</title>
+    <title>LoyalSips</title>
+    <link rel="icon" href="images/loyal-sips-ico.ico" type="image/x-icon">
 
     <!-- font awesome cdn link  -->
     <link
@@ -131,7 +132,7 @@
 
 
 
-    <!-- prodcuts section starts  -->
+    <!-- Services section starts  -->
 
     <section class="services" id="services">
       <h1 class="heading">Services<span></span></h1>
@@ -142,18 +143,38 @@
           <div class="image">
             <img src="images/cliente.png" alt="" />
           </div>
+          <div class="services-info-cliente">
+            <p>"For our customers, we offer the opportunity 
+              to purchase products and accumulate points that
+              they can redeem for rewards. Additionally, we keep
+              them informed about the latest events and promotions
+              that bars wish to highlight, providing a complete
+              and rewarding experience during their night outings."</p> <!-- Agrega una descripción aquí -->
+          </div>
         </div>
-
+      
         <div class="box">
           <span class="discount">If you are a company.</span>
           <div class="image">
             <img src="images/empresario.png" alt="" />
           </div>
+          <div class="services-info-empresa">
+            <p>"For professionals in the bar industry, we provide
+              a comprehensive solution that includes inventory
+              management and product promotion, as well as the
+              ability to highlight and promote special events
+              they wish to organize. Our platform offers
+              comprehensive tools to optimize the operation
+              of their business and increase the visibility
+              of their offerings."</p> <!-- Agrega una descripción aquí -->
         </div>
       </div>
-    </section>
+      </section>
+      
 
-    <!-- prodcuts section ends -->
+    <!-- Services section ends -->
+
+
 
     <!-- review section starts  -->
 
@@ -228,6 +249,28 @@
           </div>
           <span class="fas fa-quote-right"></span>
         </div>
+        <div class="review-form">
+          <h2>Deja tu reseña</h2>
+          <form id="review-form">
+            <div class="stars">
+              <div class="stars">
+                <input type="radio" name="rating" value="1" id="star1">
+                <label for="star1"><i class="fas fa-star"></i></label>
+                <input type="radio" name="rating" value="2" id="star2">
+                <label for="star2"><i class="fas fa-star"></i></label>
+                <input type="radio" name="rating" value="3" id="star3">
+                <label for="star3"><i class="fas fa-star"></i></label>
+                <input type="radio" name="rating" value="4" id="star4">
+                <label for="star4"><i class="fas fa-star"></i></label>
+                <input type="radio" name="rating" value="5" id="star5">
+                <label for="star5"><i class="fas fa-star"></i></label>
+              </div>
+              
+            </div>
+            <textarea id="review-text" placeholder="Escribe tu reseña..." required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
       </div>
     </section>
 
@@ -294,6 +337,6 @@
       </div>
     </section>
 
-    <!-- footer section ends -->
+    <script src="myscripts.js"></script>
   </body>
 </html>

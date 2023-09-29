@@ -253,22 +253,28 @@ header .fa-bars{
 
 .services .box-container .box{
     flex:1 1 30rem;
+    
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-    border-radius: .5rem;
+    border-radius: 5em;
     border:.1rem solid rgba(0,0,0,.1);
+    background-color: #333;
     position: relative;    
+    box-shadow: 0em 0em 1.2em rgba(51, 51, 51, 0.5); /* Agrega sombra con valores personalizables */
 }
 
-.services .box-container .box .discount{
+.services .box-container .box .discount {
     position: absolute;
-    top:1rem; left:1rem;
-    padding:.7rem 1rem;
+    top: 1em; /* Ajusta el valor de "top" para dar más espacio desde la parte superior */
+    left: 1em; /* Ajusta el valor de "left" para dar más espacio desde la izquierda */
+    padding: 1em 1em; /* Ajusta el valor de "padding" según tus preferencias */
     font-size: 2rem;
-    color:var(--gray);
-    background:rgb(204, 204, 204);
+    color: var(--gray);
+    background-color: #e6e6e6;
     z-index: 1;
-    border-radius: .5rem;
+    border-radius: 5em;
+    
 }
+
 
 .services .box-container .box .image{
     position: relative;
@@ -338,6 +344,8 @@ header .fa-bars{
     text-decoration: line-through;
 }
 
+
+/*ESTILOS DE REVIEW*/
 .review .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -397,12 +405,81 @@ header .fa-bars{
     color:#999;
 }
 
+
 .contact .row{
     display: flex;
     flex-wrap: wrap-reverse;
     gap:1.5rem;
     align-items: center;
 }
+
+/*FORMULARIO ESTILOS*/
+
+/* Estilo para el contenedor del formulario */
+.review-form {
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3em; /* Ajusta el espacio dentro del cuadro */
+    margin: top 0.3em; /* Agrega espacio entre el formulario y las reseñas */
+  }
+  
+  /* Estilo para el formulario dentro del cuadro */
+  #review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilo para los elementos del formulario */
+  #review-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem; /* Agrega espacio entre el título y el formulario */
+    margin-top: 1rem; /* Agrega espacio entre el título y las estrellas */
+  }
+  
+  
+  #review-form .stars i {
+    color: var(--gray);
+    font-size: 2rem;
+  }
+  
+  #review-form textarea {
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 0.5rem;
+    margin-top: 1rem; /* Agrega espacio entre la reseña y las estrellas */
+  }
+  
+  #review-form button {
+    font-size: 1.5rem;
+    background-color: var(--gray);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin-top: 1rem; /* Agrega espacio entre la reseña y el botón */
+  }
+  
+  #review-form button:hover {
+    background-color: #333;
+  }
+  
+  #review-text {
+    resize: none;
+  }
+  
+  .review .box-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
 
 /*Conracto fondo del cuadro de formulario*/
 .contact .row form{
@@ -501,6 +578,23 @@ header .fa-bars{
 }
 
 
+.services-info-cliente p {
+    text-align: justify;
+    color: white;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+.services-info-empresa p {
+    text-align: justify;
+    color: white;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
 
 
 
