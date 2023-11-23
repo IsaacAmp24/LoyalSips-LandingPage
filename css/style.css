@@ -481,6 +481,37 @@ header .fa-bars{
   }
   
 
+  .miembro {
+    text-align: center;
+    
+}
+
+.miembros-container {
+    display: flex;
+    justify-content: space-around; /* Puedes usar también 'space-between' para que estén en los extremos */
+    align-items: center; /* Esto centrará verticalmente los elementos si las imágenes tienen diferentes alturas */
+    flex-wrap: wrap; /* Esto permite que los elementos se envuelvan si no caben en una sola fila */
+    margin: 20px 0; /* Ajusta el margen según sea necesario */
+}
+
+.miembro img {
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 50%; /* Puedes usar esto para hacer las imágenes circulares */
+}
+
+.miembro p {
+    margin: 10px 0;
+    font-size: medium;
+}
+
+
+.video-container{
+    align-items: center;
+    display: inline-block;
+            margin: 0 auto; /* Esto centra el iframe horizontalmente */
+}
+
+
 /*Conracto fondo del cuadro de formulario*/
 .contact .row form{
     flex:1 1 40rem;
